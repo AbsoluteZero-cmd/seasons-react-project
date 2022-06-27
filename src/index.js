@@ -1,8 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const App = () => {
-  return <div>Hello, world!</div>;
-};
+import SeasonDisplay from './SeasonDispaly';
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+class App extends React.Component {
+    render() {
+        window.navigator.geolocation.getCurrentPosition(
+            (position) => console.log(position),
+            (err) => console.log(err)
+        );
+
+        return <div>Latintude: </div>;
+    }
+}
+
+ReactDOM.render(<App />, document.querySelector('#root'));
