@@ -17,15 +17,19 @@ class App extends React.Component {
 
     componentDidUpdate() {}
 
-    // We have to define render
-    render() {
+    renderContent() {
         if (this.state.errorMessage && !this.state.lat) {
             return <div>{this.state.errorMessage}</div>;
         } else if (!this.state.errorMessage && this.state.lat) {
             return <SeasonDisplay lat={this.state.lat} />;
         } else {
-            return <Spinner />;
+            return <Spinner message="Please accept location request" />;
         }
+    }
+
+    // We have to define render
+    render() {
+        return <div className="border red">{this.renderContent()}</div>;
     }
 }
 
