@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T13:28:25.520Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OGprS5dB9E7f1Y13HeMF" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T13:49:22.913Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SdzDhdQ69lBwGfV3f06u" version="20.0.3" type="github">
   <diagram id="jwQoCXokOuNMi4iNPBc-" name="Page-1">
-    <mxGraphModel dx="1085" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1578" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="K81SXenfLYUqwn9H40fJ-3" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="160" y="90" width="490" height="640" as="geometry" />
+        <mxCell id="K81SXenfLYUqwn9H40fJ-3" value="Main screen" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="500" height="650" as="geometry" />
         </mxCell>
         <mxCell id="K81SXenfLYUqwn9H40fJ-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.map;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
           <mxGeometry x="55" y="70" width="380" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="K81SXenfLYUqwn9H40fJ-6" value="SOS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=42;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
-          <mxGeometry x="180" y="480" width="130" height="130" as="geometry" />
+        <mxCell id="K81SXenfLYUqwn9H40fJ-6" value="SOS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=42;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
+          <mxGeometry x="169" y="495" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="K81SXenfLYUqwn9H40fJ-5" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
           <mxGeometry x="170" y="100" width="40" height="40" as="geometry" />
@@ -25,14 +25,62 @@
         <mxCell id="K81SXenfLYUqwn9H40fJ-11" value="39" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=36;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
           <mxGeometry x="70" y="250" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="K81SXenfLYUqwn9H40fJ-13" value="Light danger&lt;br style=&quot;font-size: 12px;&quot;&gt;Most recent report: 16 days ago" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;position2=0.08;size=30;position=0.17;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
+        <mxCell id="K81SXenfLYUqwn9H40fJ-13" value="Light danger&lt;br style=&quot;font-size: 12px;&quot;&gt;Most recent report: 16 days ago" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;position2=0.08;size=30;position=0.17;fontStyle=4;fontColor=#3333FF;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
           <mxGeometry x="210" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K81SXenfLYUqwn9H40fJ-14" value="Medium danger&lt;br style=&quot;font-size: 12px;&quot;&gt;Most recent report: 59 minutes ago" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;position2=0.08;size=30;position=0.17;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
+        <mxCell id="K81SXenfLYUqwn9H40fJ-14" value="Medium danger&lt;br style=&quot;font-size: 12px;&quot;&gt;Most recent report: 59 minutes ago" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;position2=0.08;size=30;position=0.17;fontColor=#3333FF;fontStyle=4" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
           <mxGeometry x="120" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K81SXenfLYUqwn9H40fJ-15" value="Critical danger&lt;br&gt;Most recent report: 2 months 20 days ago" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;position2=0.83;size=36;position=0.58;base=20;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
+        <mxCell id="K81SXenfLYUqwn9H40fJ-15" value="Critical danger&lt;br&gt;Most recent report: 2 months 20 days ago" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;position2=0.83;size=36;position=0.58;base=20;fontColor=#3333FF;fontStyle=4" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
           <mxGeometry x="300" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-20" value="При обнаружении серьезной опасности (например, домогательства, преследования, насилие) человек может нажать кнопку SOS и автоматически вызвать полицию в данное место. Также при нажатии на эту кнопку району сразу присваивается опасность 80+" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-3">
+          <mxGeometry x="350" y="500" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-16" value="Карта показывает самые ближайшие к пользователю районы. Рядом на ней кружками будут отмечены различные уровни опасности данной местности, а также дата последнего происшествия в районе. При нажатии на плавающее окно, пользователь будет переброшен на окно с детальной информацией по всем происшествиям в этом месте" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;spacing=40;" vertex="1" parent="1">
+          <mxGeometry x="580" y="50" width="400" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;width=14.583333333333334;endSize=8.925;endWidth=21.006944444444443;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" edge="1" parent="1" source="K81SXenfLYUqwn9H40fJ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;width=14.583333333333334;endSize=8.925;endWidth=21.006944444444443;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;entryX=0.97;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K81SXenfLYUqwn9H40fJ-16" target="K81SXenfLYUqwn9H40fJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="601.6354409362671" y="213.4475380551902" as="sourcePoint" />
+            <mxPoint x="500" y="182.89473684210532" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#3333FF;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" edge="1" parent="1" source="K81SXenfLYUqwn9H40fJ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="620" as="sourcePoint" />
+            <mxPoint x="470" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-22" value="Chat screen" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="980" y="90" width="500" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#3333FF;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-22">
+          <mxGeometry x="30" y="40" width="440" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#3333FF;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-22">
+          <mxGeometry x="30" y="565" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-36" value="Send" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-22">
+          <mxGeometry x="380" y="565" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-37" value="User1: hello" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;textDirection=ltr;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-22">
+          <mxGeometry x="60" y="75" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-38" value="User2: hi)))" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;textDirection=ltr;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-22">
+          <mxGeometry x="60" y="115" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-39" value="Me: wat...." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;textDirection=ltr;" vertex="1" parent="K81SXenfLYUqwn9H40fJ-22">
+          <mxGeometry x="60" y="155" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K81SXenfLYUqwn9H40fJ-40" value="Чат для поиска поддержки и общения с жертвами домогательств. Это позволяет создать подходящую среду для реабилитации после такого травмируещего обстоятельства" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="285" width="380" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
